@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -10,7 +10,7 @@
 
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .nav {
@@ -50,7 +50,7 @@ body {
 }
 
 #txt-input {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: block;
   width: 100%;
   min-height: 20vh;
@@ -59,7 +59,7 @@ body {
 }
 
 #output {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: block;
   width: 100%;
   min-height: 12vh;
