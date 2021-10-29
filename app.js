@@ -2,7 +2,7 @@ var btnTranslate = document.querySelector('#btn-translate');
 var txtInput = document.querySelector('#txt-input');
 var outputDiv = document.querySelector('#output');
 
-var serverURL = '	https://api.funtranslations.com/translate/mandalorian.json';
+var serverURL = 'https://api.funtranslations.com/translate/mandalorian.json';
 
 function getTranslationalURL(text) {
   return serverURL + '?' + 'text=' + text;
