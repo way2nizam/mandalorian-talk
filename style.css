@@ -1,16 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 :root {
-  --primary-color: #3ed83e;
+  --primary-color: #f89c12;
+  --button-color: #35d3da;
+  --text-color:#0c0b0b;
 }
 
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
 }
 
 .nav {
@@ -19,7 +22,7 @@ body {
 }
 
 .nav p {
-  color: rgb(30, 32, 32);
+  color: var(--text-color);
   max-width: 650px;
   margin: auto;
   text-align: center;
@@ -29,7 +32,7 @@ body {
 .nav-title {
   text-align: center;
   font-size: 35px;
-  font-weight: 700;
+  font-weight: 600;
   color: white;
 }
 
@@ -40,29 +43,39 @@ body {
 }
 
 #btn-translate {
-  border-radius: 40px;
+  border-radius: 1.6rem;
   font-size: large;
-  background-color: #66d4f5;
+  background-color: var(--button-color);
   color: white;
   border: none;
   margin: 1rem 0rem;
   padding: 1rem 2rem;
 }
 
-#txt-input {
-  font-family: 'Roboto', sans-serif;
-  display: block;
-  width: 100%;
-  min-height: 20vh;
-  margin-top: 1.5rem;
-  font-size: large;
+#btn-translate:hover {
+  background-color: aliceblue;
+  color:var(--button-color);
+  border: .1rem solid #08dce7;
 }
 
-#output {
-  font-family: 'Roboto', sans-serif;
+#txt-input {
   display: block;
   width: 100%;
-  min-height: 12vh;
+  min-height: 19vh;
+  margin-top: 1.5rem;
+  font-size: large;
+  padding-left: .5rem;
+  padding-top: .5rem;
+}
+
+/* ::placeholder {
+ padding-left: .2rem;
+} */
+
+#output {
+  display: block;
+  width: 100%;
+  min-height: 19vh;
   margin-top: 1.5rem;
   font-size: large;
   overflow: scroll;
